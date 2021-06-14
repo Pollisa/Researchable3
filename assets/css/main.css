@@ -265,6 +265,10 @@ input, select, textarea {
 		position: relative;
 		top: -0.5em;
 	}
+function myFunction() {
+  var element = document.body;
+  element.classList.toggle("dark-mode");
+}
 
 	blockquote {
 		border-left: solid 3px rgba(210, 215, 217, 0.75);
