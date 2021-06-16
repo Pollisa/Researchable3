@@ -50,7 +50,17 @@
   										action="https://formspree.io/f/mdoyzwzg"
   										method="POST"
 									>
-									<label>
+										<label for="full-name"> full name (nickname)</label>
+										<input type="text" name="text" id="full-name" placeholder="full name (nickname)" required="">
+										<label for="school-grade"> school name (grade level/year)</label>
+										<input type="text" name="text" id="school-grade" placeholder="school name (grade level/year)" required="">
+										<label for="email-address"> email address</label>
+									   	<input type="email" name="_replyto" id="email-address" placeholder="email address" required="">
+										<label for="history">describe your history</label>
+    										<textarea rows="3" name="history" id="issue" placeholder="describe your background in research, paste links if needed" required=""></textarea>
+										<label for="issue">describe your issue</label>
+    										<textarea rows="3" name="issue" id="issue" placeholder="describe your issue. what would you like your mentor to help you with?" required=""></textarea>
+
 									    <input type="email" name="_replyto">
 									  </label>
 									  <label>
@@ -68,6 +78,22 @@
 								</section>
 									</div>
 									</div>
+							<!--Form -->
+ 
+							
+							<fieldset id="fs-frm-inputs">
+    <label for="full-name">Full Name</label>
+    <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+    <label for="email-address">Email Address</label>
+    <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+    <label for="message">Message</label>
+    <textarea rows="5" name="message" id="message" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required=""></textarea>
+    <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+  </fieldset>
+  <input type="submit" value="Submit">
+</form>
+						
+						
 				
 											
 				<!-- Sidebar -->
@@ -111,6 +137,7 @@
 
   									<button type="submit">Send</button>
 								</form>
+							
 				
 							<!-- Section -->
 								
