@@ -23,7 +23,7 @@
 				<!-- Main -->
 					<div id="main">
 						<header style="background-color:rgb(245, 233, 233);">
-						<a href="index.html"><img src="images/logo.png" alt="researchably." width="45" height="45" style="vertical-align:middle;margin:22px 70px"></a>
+						<a href="index.html"><img src="images/logo.png" alt="researchably." width="55" height="55" style="vertical-align:middle;margin:22px 70px"></a>
 						</header>
 
 						<div class="inner">
@@ -51,19 +51,26 @@
   										action="https://formspree.io/f/mdoyzwzg"
   										method="POST"
 									>
-										<label for="full-name"> full name (nickname)</label>
-										<input type="text" name="text" id="full-name" placeholder="full name (nickname)" required="">
-										<label for="school-grade"> school name (grade level/year)</label>
-										<input type="text" name="text" id="school-grade" placeholder="school name (grade level/year)" required="">
-										<label for="email-address"> email address</label>
+										<label for="full-name">📝full name and nickname</label>
+										<input type="text" name="full-name" id="full-name" required="">
+										<br>
+										<label for="school-and-grade">🏫school name and grade level/year</label>
+										<input type="text" name="school-and-grade" id="school-grade" required="">
+										<br>
+										<label for="email-address">📧email address</label>
+										<p>if your school blocks external emails, please use a personal email address.</p>
 									   	<input type="email" name="_replyto" id="email-address" placeholder="email address" required="">
-										<label for="history">describe your history</label>
-    										<textarea rows="3" name="history" id="issue" placeholder="describe your background in research" required=""></textarea>
-										<label for="issue">describe your issue</label>
-    										<textarea rows="3" name="issue" id="issue" placeholder="describe your issue. what would you like your mentor to help you with?" required=""></textarea>
-										<label for="file">file upload</label>
+										<br>
+										<label for="background-and-experience">🔬describe your coursework, academic qualifications, skills, and past research experience (if any).</label>
+										<p>paste links and upload files below if you'd like.</p>
+    										<textarea rows="3" name="background-and-experience" id="background-and-experience" required=""></textarea>
+										<br>
+										<label for="issue">🌤describe your issues and concerns. what would you like your mentor to help you with?</label>
+    										<textarea rows="3" name="issue" id="issue" required=""></textarea>
+										<br>
+										<label for="file">🌙upload files below (optional):</label>
 										<input type="file" name="attachment">
-										<label for="file">file upload</label>
+										<input type="file" name="attachment">
 										<input type="file" name="attachment">
 									  <button type="submit">Send</button>
 									</form>
