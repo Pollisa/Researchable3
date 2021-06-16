@@ -167,11 +167,14 @@ input, select, textarea {
 
 			a:hover strong {
 				color: inherit;
+transition: transform .2s; /* Animation */
+  width: 200px;
+  height: 200px;
 			}
 
 	strong, b {
 		color: #3d4449;
-		font-weight: 600;
+		font-weight: 700;
 	}
 
 	em, i {
